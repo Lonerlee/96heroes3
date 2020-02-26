@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>96 Heroes 3</title>
+</head>
+<body>
+    <div id="background">
+        <div id="content">
+            <div class="side">
+              <div id="timeIcon">.⏳</div>
+              <div id="timeProgress">
+                <div id="timeProgressLeft">
+                  <div id="timeProgressLeftShowing"></div>
+                </div>
+              </div>
+            </div>
+            <div class="game">
+              <div id="game-clue">Here are the clues to what to click</div>
+              <div id="game-inside">
+                <div id="start-screen" onclick="startGame()">Click here to start!</div>
+                <div id="game-screen">
+                  <div class="pick-container">
+                    <div class="pick" id="pick1" onclick="checkRight(1)">I</div>
+                    <div class="pick" id="pick2" onclick="checkRight(2)">II</div>
+                  </div>
+                  <div class="pick-container">
+                    <div class="pick" id="pick3" onclick="checkRight(3)">III</div>
+                    <div class="pick" id="pick4" onclick="checkRight(4)">IV</div>
+                  </div>
+                </div>
+                <div id="finish-screen">
+                  <div id="finish-screen-outline">Your score is:</div>
+                </div>
+              </div>
+              <div id="game-points" onclick="clicked()">Number of additional points</div>
+            </div>
+            <div class="side">
+              <div id="progressIcon">.🔥</div>
+              <div id="scoreProgress">
+                <div id="scoreProgressLeft"></div>
+              </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

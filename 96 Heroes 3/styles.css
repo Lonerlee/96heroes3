@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 4vh;
+  }
+  
+  body {
+  background: linear-gradient(270deg, #0eff00, #00bcff, #fff900, #ff0000);
+  background-size: 800% 800%;
+  animation: bg-body 30s ease infinite;
+  }
+  
+  #game-clue, #game-points{
+    font-size: 4vh;
+    height: 5vh;
+    background-color: #aaaaaaaa;
+  }
+  
+  #start-screen {
+    font-size: 12vh;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: white url("https://heroes.thelazy.net/images/thumb/2/2d/Screenshot_3dd.png/750px-Screenshot_3dd.png") no-repeat fixed center;
+      background-size: 200vh 100vh;
+  }
+  
+  #game-screen {
+    width: 100%;
+    height: 100%;
+    display: none;
+      background: blue url("https://heroes.thelazy.net/images/4/4c/Water_%28h%29.gif") repeat fixed center;
+  }
+  
+  #finish-screen {
+    width: 100%;
+    height: 100%;
+    display: none;
+      background: blue url("https://heroes.thelazy.net/images/thumb/b/b9/Cove-in.png/750px-Cove-in.png") repeat fixed center;
+    background-size: 200vh 100vh;
+  }
+  
+  #game-inside {
+    height: 90vh;
+  }
+  
+  #content{
+    cursor: pointer;
+    margin: auto;
+    height: 100vh;
+    width: 125vh;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #background {
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i.imgur.com/hsnzE0T.png");
+    background-size: 2000vh 100vh;
+    position: relative;
+    animation-name: bg-animation;
+    animation-duration: 200s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes bg-animation {
+    0%    {  background-position: 0vh}
+    25%   {  background-position: 1000vh}
+    50%  {  background-position: 1300vh}
+    100%  {  background-position: 2000h}
+  }
+  
+  @keyframes bg-body {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  
+  .side {
+    background-color: #aaaaaaaa;
+    width: 10vh;
+    height: 100vh;
+  }
+  
+  .game {
+    background-color: #333333aa;
+    width: 100vh;
+    height: 100vh;
+  }
+  
+  #timeProgress {
+    width: 9vh;
+    height: 89vh;
+    margin: 0.5vh;
+    background-color: gray;
+  }
+  
+  #timeProgressLeft {
+    width: 100%;
+    height: 100%;
+  background: linear-gradient(359deg, #ffb600, #ff6700, #ffffff);
+    background-size: 100vh 100vh;
+  }
+  
+  #timeProgressLeftShowing {
+      border-bottom: 1vh solid black;
+  }
+  
+  #scoreProgress {
+    width: 9vh;
+    height: 89vh;
+    margin: 0.5vh;
+    background-color: gray;
+  }
+  
+  #scoreProgressLeft {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(359deg, #ff0000,        #d8ff00, #00ce06, #00ce58);
+    background-size: 100vh 100vh;
+  }
+  
+  #timeIcon, #progressIcon {
+    width: 9vh;
+    height: 9vh;
+    margin: 0.5vh;
+    font-size: 5.6vh;
+    background-color: black;
+  }
+  
+  #finish-screen-outline {
+    width: 100%;
+    height: 100%;
+    background-color: #000000aa;
+    color: white;
+    background-image: url("https://heroes.thelazy.net/images/2/21/Creature_Nymph.gif");
+    background-size: auto 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .pick-container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .pick {
+    padding: 3vh;
+    flex-grow: 1;
+    color: white;
+      background-image: url("https://heroes.thelazy.net/images/2/21/Creature_Nymph.gif");
+    background-size: auto 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
