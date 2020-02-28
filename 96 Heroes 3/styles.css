@@ -11,7 +11,7 @@
   }
   
   #game-clue, #game-points{
-    font-size: 4vh;
+    font-size: 3.3vh;
     height: 5vh;
     background-color: #aaaaaaaa;
   }
@@ -122,6 +122,11 @@
     background: linear-gradient(359deg, #ff0000,        #d8ff00, #00ce06, #00ce58);
     background-size: 100vh 100vh;
   }
+
+  #scoreProgressLeftShowing {
+    height: 100%;
+    border-bottom: 1vh solid black;
+}
   
   #timeIcon, #progressIcon {
     width: 9vh;
@@ -154,7 +159,7 @@
     flex-grow: 1;
     color: white;
       background-image: url("https://heroes.thelazy.net/images/2/21/Creature_Nymph.gif");
-    background-size: auto 30vh;
+    background-size: auto 25vh;
     background-repeat: no-repeat;
     background-position: center;
   }
