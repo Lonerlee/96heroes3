@@ -141,6 +141,10 @@ function winScreen() {
     }
 }
 
+function youtubePage() {
+    window.location.href = "https://www.youtube.com/watch?v=uuPJ_hOyYco&feature=youtu.be";
+}
+
 var questions = [
 {question:"Which hero has speciality in gold?", good1:"https://heroes.thelazy.net/images/1/1f/Hero_Jenova_small.gif", bad1:"https://heroes.thelazy.net/images/6/61/Hero_Elleshar_small.gif", bad2:"https://heroes.thelazy.net/images/6/6b/Hero_Josephine_small.gif", bad3:"https://heroes.thelazy.net/images/a/a9/Hero_Melodia_small.gif"}, 
 {question:"Which spell is from air magic?", good1:"https://heroes.thelazy.net/images/e/e1/Air_Shield_small.png", bad1:"https://heroes.thelazy.net/images/2/2a/Weakness_small.png", bad2:"https://heroes.thelazy.net/images/b/b6/Visions_small.png", bad3:"https://heroes.thelazy.net/images/3/32/Quicksand_small.png"},
