@@ -22,21 +22,21 @@
     height: 100%;
     display: block;
     background: white url("https://heroes.thelazy.net/images/thumb/2/2d/Screenshot_3dd.png/750px-Screenshot_3dd.png") no-repeat fixed center;
-      background-size: 200vh 100vh;
+    background-size: 200vh 100vh;
   }
   
   #game-screen {
     width: 100%;
     height: 100%;
     display: none;
-      background: blue url("https://heroes.thelazy.net/images/4/4c/Water_%28h%29.gif") repeat fixed center;
+    background: blue url("https://heroes.thelazy.net/images/4/4c/Water_%28h%29.gif") repeat fixed center;
   }
   
   #finish-screen {
     width: 100%;
     height: 100%;
     display: none;
-      background: blue url("https://heroes.thelazy.net/images/thumb/b/b9/Cove-in.png/750px-Cove-in.png") repeat fixed center;
+    background: blue url("https://heroes.thelazy.net/images/thumb/b/b9/Cove-in.png/750px-Cove-in.png") repeat fixed center;
     background-size: 200vh 100vh;
   }
   
@@ -138,15 +138,22 @@
   
   #finish-screen-outline {
     width: 100%;
-    height: 100%;
+    height: 93%;
     background-color: #000000aa;
     color: white;
     background-image: url("https://heroes.thelazy.net/images/2/21/Creature_Nymph.gif");
-    background-size: auto 50vh;
+    background-size: auto 40vh;
     background-repeat: no-repeat;
     background-position: center;
   }
   
+  #finish-screen-outline2 {
+    width: 100%;
+    height: 7%;
+    background: radial-gradient(circle, rgba(226, 226, 226, 0.8) 0%, rgba(109, 177, 255, 0.8) 100%);
+    color: black;
+  }
+
   .pick-container {
     height: 50%;
     width: 100%;
@@ -158,7 +165,7 @@
     padding: 3vh;
     flex-grow: 1;
     color: white;
-      background-image: url("https://heroes.thelazy.net/images/2/21/Creature_Nymph.gif");
+    background-image: url("https://heroes.thelazy.net/images/2/21/Creature_Nymph.gif");
     background-size: auto 25vh;
     background-repeat: no-repeat;
     background-position: center;

@@ -142,7 +142,7 @@ function winScreen() {
 }
 
 function youtubePage() {
-    window.location.href = "https://www.youtube.com/watch?v=uuPJ_hOyYco&feature=youtu.be";
+    window.location.href = "https://www.youtube.com/channel/UCiArq5VGKSxUh_1ddAxhh6g?view_as=subscriber";
 }
 
 var questions = [
